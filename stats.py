@@ -35,4 +35,4 @@ def chars_to_sorted_list(letters):
 def cleaner(chars_list):
     for i in chars_list:
         if i["char"].isalpha():
-            print(f"{i["char"]} : {i["count"]}")
+            print(f"{i["char"]}: {i["count"]}")
